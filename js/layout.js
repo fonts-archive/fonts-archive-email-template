@@ -3,7 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 회원가입 인증 메일 제목
     wrap.innerHTML += `
-        <div></div>
+        <div style="width: 600px; background-color: #FFF; border: 1px solid #EEE; padding: 20px 32px; margin-bottom: 12px;">
+            <div style="font-size: 12px; font-weight: 400; color: #666; text-decoration: underline; text-underline-offset: 4px; margin-bottom: 6px;">양식</div>
+            <div style="font-size: 18px; font-weight: 700; color: #333;">회원가입 인증 메일</div>
+        </div>
     `;
 
     // 회원가입 인증 메일 내용
