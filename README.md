@@ -2,7 +2,7 @@
 
 폰트 아카이브 이메일 양식 모음
 
-[라이브 데모 바로가기](https://fonts-archive.github.io/fonts-archive-email-form/)
+[라이브 데모 바로가기](https://fonts-archive.github.io/fonts-archive-email-template/)
 
 &nbsp;
 
