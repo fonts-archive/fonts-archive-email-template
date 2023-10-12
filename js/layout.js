@@ -12,19 +12,19 @@ document.addEventListener('DOMContentLoaded', () => {
     // 회원가입 인증 메일 내용
     wrap.innerHTML += `
         <div style="width:100%;">
-            <div style="width:100%; max-width:600px; margin:0 auto; padding:100px 20px; background-color:#FFF; border:1px solid #EEE; font-size:16px; font-weight:400; line-height:1.25; color:#000; font-family:'Roboto', 'Noto Sans KR', '맑은고딕', Malgun Gothic, '돋움', Dotum, Helvetica, 'Apple SD Gothic Neo', Sans-serif;">
+            <div style="width:100%; max-width:600px; margin:0 auto; padding:80px 20px; background-color:#FFF; border:1px solid #EEE; font-size:16px; font-weight:400; line-height:1.25; color:#000; font-family:'Roboto', 'Noto Sans KR', '맑은고딕', Malgun Gothic, '돋움', Dotum, Helvetica, 'Apple SD Gothic Neo', Sans-serif;">
                 <div style="width:100%; max-width:400px; margin:0 auto;">
                     <div style="width: 100%; margin: 0 auto;">
                         <div style="margin: 0 auto; width:24px; height:24px; background-color:#000; color:#FFF; font-size:10px; font-weight:400; text-align:center; line-height:22px; border-radius:4px;">Aa</div>
-                        <div style="margin: 0 auto; margin-top: 12px; font-size: 14px; text-align: center; color: #3A3A3A;">폰트 아카이브</div>
+                        <div style="margin: 0 auto; margin-top: 16px; font-size: 14px; text-align: center; color: #3A3A3A;">폰트 아카이브</div>
                     </div>
-                    <h2 style="font-size:20px; font-weight:500; text-align: center; color: #3A3A3A; margin-top:4px;">
+                    <h2 style="font-size:20px; font-weight:500; text-align: center; color: #3A3A3A; margin-top:8px;">
                         회원가입 <span style="color: #000; font-weight: 700;">인증 메일</span>입니다.
                     </h2>
                     <p style="text-align: center; margin-top: 40px;">
                         <img src="https://fonts-archive.s3.ap-northeast-2.amazonaws.com/mail.png" alt="메일 아이콘" style="width: 160px;"/>
                     </p>
-                    <p style="width:100%; font-size:14px; font-weight:400; text-align: center; line-height:1.8; color:#3A3A3A; margin:0; margin-top:36px;">
+                    <p style="width:100%; font-size:14px; font-weight:400; text-align: center; line-height:1.8; color:#3A3A3A; margin:0; margin-top:40px;">
                         안녕하세요 ${"홍길동"}님, <br/>
                         아래 버튼을 클릭해서 <span style="font-weight:700; color:#000;">회원가입을 완료</span>해 주세요.
                     </p>
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 임시 비밀번호 발급 메일 내용
     wrap.innerHTML += `
         <div style="width:100%; font-size:16px; font-weight:400; line-height:1.25; color:#000; font-family:'Roboto', 'Noto Sans KR', '맑은고딕', Malgun Gothic, '돋움', Dotum, Helvetica, 'Apple SD Gothic Neo', Sans-serif;">
-            <div style="width:100%; max-width:600px; background-color:#FFF; margin:0 auto; padding:100px 20px; border:1px solid #EEE; font-size:16px; font-weight:400; line-height:1.25; color:#000;">
+            <div style="width:100%; max-width:600px; background-color:#FFF; margin:0 auto; padding:80px 20px; border:1px solid #EEE; font-size:16px; font-weight:400; line-height:1.25; color:#000;">
                 <div style="width:100%; max-width:400px; margin:0 auto;">
                     <div style="width:32px; height:32px; background-color:#000; color:#FFF; font-size:12px; font-weight:400; line-height:1; border-radius:6px; margin:0 auto; text-align:center; line-height:30px;">Aa</div>
                     <h2 style="font-size:20px; font-weight:500; margin:0; margin-top:20px; text-align:center;">
@@ -102,19 +102,19 @@ document.addEventListener('DOMContentLoaded', () => {
     // 폰트 제보하기 자동 응답 메일 내용
     wrap.innerHTML += `
         <div style="width:100%; font-size:16px; font-weight:400; line-height:1.25; color:#000; font-family:'Roboto', 'Noto Sans KR', '맑은고딕', Malgun Gothic, '돋움', Dotum, Helvetica, 'Apple SD Gothic Neo', Sans-serif;">
-            <div style="width:100%; max-width:600px; background-color:#FFF; margin:0 auto; padding:100px 20px; border:1px solid #EEE; font-size:16px; font-weight:400; line-height:1.25; color:#000;">
+            <div style="width:100%; max-width:600px; background-color:#FFF; margin:0 auto; padding:80px 20px; border:1px solid #EEE; font-size:16px; font-weight:400; line-height:1.25; color:#000;">
                 <div style="width:100%; max-width:400px; margin:0 auto;">
                     <div style="width: 100%; margin: 0 auto;">
                         <div style="margin: 0 auto; width:24px; height:24px; background-color:#000; color:#FFF; font-size:10px; font-weight:400; text-align:center; line-height:22px; border-radius:4px;">Aa</div>
-                        <div style="margin: 0 auto; margin-top: 12px; font-size: 14px; text-align: center; color: #3A3A3A;">폰트 아카이브</div>
+                        <div style="margin: 0 auto; margin-top: 16px; font-size: 14px; text-align: center; color: #3A3A3A;">폰트 아카이브</div>
                     </div>
-                    <h2 style="font-size:20px; font-weight:500; text-align: center; color: #3A3A3A; margin-top:4px;">
+                    <h2 style="font-size:20px; font-weight:500; text-align: center; color: #3A3A3A; margin-top:8px;">
                         폰트를 제보해주셔서 <span style="color: #000; font-weight: 700;">감사합니다.</span>
                     </h2>
                     <p style="text-align: center; margin-top: 40px;">
                         <img src="https://fonts-archive.s3.ap-northeast-2.amazonaws.com/mail.png" alt="메일 아이콘" style="width: 160px;"/>
                     </p>
-                    <p style="width:100%; font-size:14px; font-weight:400; line-height:2; color:#3A3A3A; margin:0; margin-top:28px;">
+                    <p style="width:100%; font-size:14px; font-weight:400; line-height:2; color:#3A3A3A; margin:0; margin-top:40px;">
                         제보해주신 내용 관련해서 최대한 빠른 시일 내에 <span style="font-weight:500; color:#000;">답변</span>드리겠습니다. <br/>
                         폰트를 찾을 수 없거나, 저작권 등의 문제로 폰트를 올릴 수 없는 경우, 관련 내용 첨부해 답변 드리겠습니다.
                     </p>
