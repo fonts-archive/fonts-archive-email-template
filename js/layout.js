@@ -64,7 +64,6 @@ document.addEventListener('DOMContentLoaded', () => {
         <div style="width:100%; font-family:'Roboto', 'Noto Sans KR'; font-size:16px; font-weight:400; line-height:1.25; color:#000;">
             <div style="width:100%; max-width:600px; background-color:#FFF; margin:0 auto; padding:40px 20px; border:1px solid #EEE; font-size:16px; font-weight:400; line-height:1.25; color:#000;">
                 <div style="width:100%; max-width:400px; margin:0 auto;">
-                    <div style="width: 100%; height: 1px; margin-bottom: 48px;"></div>
                     <div style="width:32px; height:32px; background-color:#000; color:#FFF; font-size:12px; font-weight:400; line-height:1; border-radius:6px; margin:0 auto; text-align:center; line-height:30px;">Aa</div>
                     <h2 style="font-size:20px; font-weight:500; margin:0; margin-top:20px; text-align:center;">
                         임시 비밀번호가 발급되었습니다.
