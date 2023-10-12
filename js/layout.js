@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 회원가입 인증 메일 제목
     wrap.innerHTML += `
-        <div style="width: 600px; background-color: #FFF; border: 1px solid #EEE; padding: 20px 32px; margin:0 auto; margin-bottom: 12px;">
+        <div style="width:100%; max-width:520px; background-color: #FFF; padding:20px 32px; box-sizing:border-box; margin:0 auto; margin-bottom: 12px;">
             <div style="font-size: 12px; font-weight: 400; color: #666; text-decoration: underline; text-underline-offset: 4px; margin-bottom: 8px;">"폰트 아카이브" &lt;taedonn@taedonn.com></div>
             <div style="font-size: 18px; font-weight: 700; color: #333;">[폰트 아카이브] 회원가입 인증 메일입니다.</div>
         </div>
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 회원가입 인증 메일 내용
     wrap.innerHTML += `
         <div style="width:100%;">
-            <div style="width:100%; max-width:600px; margin:0 auto; padding:80px 20px; background-color:#FFF; border:1px solid #EEE; font-size:16px; font-weight:400; line-height:1.25; color:#000; font-family:'Roboto', 'Noto Sans KR', '맑은고딕', Malgun Gothic, '돋움', Dotum, Helvetica, 'Apple SD Gothic Neo', Sans-serif;">
+            <div style="width:100%; max-width:520px; margin:0 auto; padding:80px 20px; box-sizing:border-box; background-color:#FFF; font-size:16px; font-weight:400; line-height:1.25; color:#000; font-family:'Roboto', 'Noto Sans KR', '맑은고딕', Malgun Gothic, '돋움', Dotum, Helvetica, 'Apple SD Gothic Neo', Sans-serif;">
                 <div style="width:100%; max-width:400px; margin:0 auto;">
                     <div style="width: 100%; margin: 0 auto;">
                         <div style="margin: 0 auto; width:24px; height:24px; background-color:#000; color:#FFF; font-size:10px; font-weight:400; text-align:center; line-height:22px; border-radius:4px;">Aa</div>
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         안녕하세요 ${"홍길동"}님, <br/>
                         아래 버튼을 클릭해서 <span style="font-weight:700; color:#000;">회원가입을 완료</span>해 주세요.
                     </p>
-                    <a style="width:200px; display:block; padding:16px 20px; margin: 0 auto; margin-top:20px; box-sizing:border-box; background-color:#000; font-size:14px; font-weight:700; text-align:center; color:#FFF; text-decoration:none; border-radius:6px;" href="https://fonts.taedonn.com?session=${"session_id"}">
+                    <a style="width:200px; display:block; padding:16px 20px; box-sizing:border-box; margin: 0 auto; margin-top:20px; box-sizing:border-box; background-color:#000; font-size:14px; font-weight:700; text-align:center; color:#FFF; text-decoration:none; border-radius:6px;" href="https://fonts.taedonn.com?session=${"session_id"}">
                         회원가입 완료하기
                     </a>
                     <div style="width:100%; height:1px; background-color:#EEE; margin-top:48px;"></div>
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 임시 비밀번호 발급 메일 제목
     wrap.innerHTML += `
         <div style="width:100%; height:8px; background-color:#DDD; margin: 60px 0;"></div>
-        <div style="width: 600px; background-color: #FFF; border: 1px solid #EEE; margin:0 auto; padding: 20px 32px; margin-bottom: 12px;">
+        <div style="width: 100%; max-width:520px; background-color: #FFF; margin:0 auto; padding: 20px 32px; box-sizing:border-box; margin-bottom: 12px;">
             <div style="font-size: 12px; font-weight: 400; color: #666; text-decoration: underline; text-underline-offset: 4px; margin-bottom: 8px;">"폰트 아카이브" &lt;taedonn@taedonn.com></div>
             <div style="font-size: 18px; font-weight: 700; color: #333;">[폰트 아카이브] 임시 비밀번호가 발급되었습니다.</div>
         </div>
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 임시 비밀번호 발급 메일 내용
     wrap.innerHTML += `
         <div style="width:100%; font-size:16px; font-weight:400; line-height:1.25; color:#000; font-family:'Roboto', 'Noto Sans KR', '맑은고딕', Malgun Gothic, '돋움', Dotum, Helvetica, 'Apple SD Gothic Neo', Sans-serif;">
-            <div style="width:100%; max-width:600px; background-color:#FFF; margin:0 auto; padding:80px 20px; border:1px solid #EEE; font-size:16px; font-weight:400; line-height:1.25; color:#000;">
+            <div style="width:100%; max-width:520px; background-color:#FFF; margin:0 auto; padding:80px 20px; box-sizing:border-box; font-size:16px; font-weight:400; line-height:1.25; color:#000;">
                 <div style="width:100%; max-width:400px; margin:0 auto;">
                     <div style="width:32px; height:32px; background-color:#000; color:#FFF; font-size:12px; font-weight:400; line-height:1; border-radius:6px; margin:0 auto; text-align:center; line-height:30px;">Aa</div>
                     <h2 style="font-size:20px; font-weight:500; margin:0; margin-top:20px; text-align:center;">
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         안녕하세요 ${"홍길동"}님, <br/>
                         이제 아래 <span style="font-weight:500; color:#000;">임시 비밀번호를 통해</span> 로그인 하실 수 있습니다.
                     </p>
-                    <div style="width:100%; padding:16px 20px; margin-top:28px; box-sizing:border-box; background-color:#EEE; font-size:12px; font-weight:500; color:#3A3A3A; text-decoration:none; border-radius:6px;">
+                    <div style="width:100%; padding:16px 20px; box-sizing:border-box; margin-top:28px; box-sizing:border-box; background-color:#EEE; font-size:12px; font-weight:500; color:#3A3A3A; text-decoration:none; border-radius:6px;">
                         ${"랜덤 비밀번호"}
                     </div>
                     <p style="width:100%; font-size:14px; font-weight:400; line-height:2; color:#3A3A3A; margin:0; margin-top:28px;">
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 폰트 제보하기 자동 응답 메일 제목
     wrap.innerHTML += `
         <div style="width:100%; height:8px; background-color:#DDD; margin: 60px 0;"></div>
-        <div style="width: 600px; background-color: #FFF; border: 1px solid #EEE; margin:0 auto; padding: 20px 32px; margin-top: 60px; margin-bottom: 12px;">
+        <div style="width: 100%; max-width:520px; background-color: #FFF; margin:0 auto; padding: 20px 32px; box-sizing:border-box; margin-top: 60px; margin-bottom: 12px;">
             <div style="font-size: 12px; font-weight: 400; color: #666; text-decoration: underline; text-underline-offset: 4px; margin-bottom: 8px;">"폰트 아카이브" &lt;taedonn@taedonn.com></div>
             <div style="font-size: 18px; font-weight: 700; color: #333;">[폰트 아카이브] 폰트를 제보해주셔서 감사합니다.</div>
         </div>
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 폰트 제보하기 자동 응답 메일 내용
     wrap.innerHTML += `
         <div style="width:100%; font-size:16px; font-weight:400; line-height:1.25; color:#000; font-family:'Roboto', 'Noto Sans KR', '맑은고딕', Malgun Gothic, '돋움', Dotum, Helvetica, 'Apple SD Gothic Neo', Sans-serif;">
-            <div style="width:100%; max-width:600px; background-color:#FFF; margin:0 auto; padding:80px 20px; border:1px solid #EEE; font-size:16px; font-weight:400; line-height:1.25; color:#000;">
+            <div style="width:100%; max-width:520px; background-color:#FFF; margin:0 auto; padding:80px 20px; box-sizing:border-box; font-size:16px; font-weight:400; line-height:1.25; color:#000;">
                 <div style="width:100%; max-width:400px; margin:0 auto;">
                     <div style="width: 100%; margin: 0 auto;">
                         <div style="margin: 0 auto; width:24px; height:24px; background-color:#000; color:#FFF; font-size:10px; font-weight:400; text-align:center; line-height:22px; border-radius:4px;">Aa</div>
@@ -118,11 +118,11 @@ document.addEventListener('DOMContentLoaded', () => {
                         제보해주신 내용 관련해서 최대한 빠른 시일 내에 <span style="font-weight:500; color:#000;">답변</span>드리겠습니다. <br/>
                         폰트를 찾을 수 없거나, 저작권 등의 문제로 폰트를 올릴 수 없는 경우, 관련 내용 첨부해 답변 드리겠습니다.
                     </p>
-                    <div style="width:100%; padding:16px 20px; margin-top:28px; box-sizing:border-box; background-color:#EEE; font-size:12px; font-weight:500; color:#3A3A3A; text-decoration:none; border-radius:6px;">
+                    <div style="width:100%; padding:16px 20px; box-sizing:border-box; margin-top:28px; box-sizing:border-box; background-color:#EEE; font-size:12px; font-weight:500; color:#3A3A3A; text-decoration:none; border-radius:6px;">
                         <div style="text-decoration:underline; font-weight:bold;">제목</div><br/>
                         ${"제목"}
                     </div>
-                    <div style="width:100%; padding:16px 20px; margin-top:14px; box-sizing:border-box; background-color:#EEE; font-size:12px; font-weight:500; color:#3A3A3A; text-decoration:none; border-radius:6px;">
+                    <div style="width:100%; padding:16px 20px; box-sizing:border-box; margin-top:14px; box-sizing:border-box; background-color:#EEE; font-size:12px; font-weight:500; color:#3A3A3A; text-decoration:none; border-radius:6px;">
                         <div style="text-decoration:underline; font-weight:bold;">내용</div><br/>
                         ${"내용"}
                     </div>
