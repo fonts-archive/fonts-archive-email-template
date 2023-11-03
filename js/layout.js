@@ -205,9 +205,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p style="text-align: center; margin-top: 40px;">
                         <img src="https://fonts-archive.s3.ap-northeast-2.amazonaws.com/mail.png" alt="메일 아이콘" style="width: 160px;"/>
                     </p>
-                    <p style="width:100%; font-size:14px; font-weight:400; line-height:2; color:#3A3A3A; margin:0; margin-top:40px;">
-                        먼저 폰트 아카이브 이용에 불편을 드려 죄송합니다. 제보해주신 내용에 대해 최대한 빠른 시일 내에 <span style="font-weight:500; color:#000;">해결할 수 있도록 노력하겠습니다.</span> <br/><br/>
-                        만일 동일한 현상이 지속된다면, 번거로우시겠지만 다시 한번 제보 부탁드립니다. 다시 한 번 고객님의 소중한 제보 감사드립니다. <br/><br/>
+                    <p style="width:100%; font-size:14px; font-weight:400; line-height:2; color:#3A3A3A; margin:0; margin-top:40px; word-break:keep-all;">
+                        폰트 아카이브 이용에 불편을 드려 죄송합니다. 제보해주신 내용에 대해 최대한 빠른 시일 내에 검토 후 <span style="font-weight:500; color:#000;">해결할 수 있도록 노력하겠습니다.</span> <br/><br/>
+                        만일 동일한 현상이 지속된다면, 번거로우시겠지만 다시 한번 제보를 부탁드립니다. 다시 한 번 고객님의 소중한 제보 감사드립니다. <br/><br/>
                         감사합니다.
                     </p>
                     <div style="width:100%; height:1px; background-color:#EEE; margin-top:48px;"></div>
