@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         안녕하세요 <span style="font-weight: bold; color: #000;">${"홍길동"}</span>님, <br/>
                         아래 버튼을 클릭해서 회원가입을 완료해 주세요.
                     </p>
-                    <a style="width: 280px; display: block; padding: 16px 20px; box-sizing: border-box; margin: 0 auto; margin-top: 20px; box-sizing: border-box; background-color: #1B73E7; font-size: 14px; font-weight: bold; text-align: center; color: #FFF; text-decoration: none; border-radius: 6px;" href="https://fonts.taedonn.com/confirm?token=${"email_token"}">
+                    <a style="width: 280px; max-width: 100%; display: block; padding: 16px 20px; box-sizing: border-box; margin: 0 auto; margin-top: 20px; box-sizing: border-box; background-color: #1B73E7; font-size: 14px; font-weight: bold; text-align: center; color: #FFF; text-decoration: none; border-radius: 6px;" href="https://fonts.taedonn.com/confirm?token=${"email_token"}">
                         회원가입 완료하기
                     </a>
                     <div style="width: 100%; height: 1px; background-color: #D2D4DC; margin-top: 48px;"></div>
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         안녕하세요 <span style="font-weight: bold; color: #000;">${"홍길동"}</span>님, <br/>
                         아래 임시 비밀번호를 통해 로그인 하실 수 있습니다.
                     </p>
-                    <div style="width: 320px; padding: 16px 20px; box-sizing: border-box; margin: 0 auto; margin-top: 20px; box-sizing: border-box; background-color: #E9F0FE; font-size: 14px; text-decoration: none; border-radius: 6px;">
+                    <div style="width: 320px; max-width: 100%; padding: 16px 20px; box-sizing: border-box; margin: 0 auto; margin-top: 20px; box-sizing: border-box; background-color: #E9F0FE; font-size: 14px; text-decoration: none; border-radius: 6px;">
                         ${"랜덤 비밀번호"}
                     </div>
                     <div style="width: 100%; height: 1px; background-color: #D2D4DC; margin-top: 48px;"></div>
@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p style="text-align: center; margin: 40px 0;">
                         <img src="https://fonts-archive.s3.ap-northeast-2.amazonaws.com/3d_love_sign.png" alt="아이콘" style="width: 140px;"/>
                     </p>
-                    <p style="width: 320px; font-size: 14px; font-weight: 400; line-height: 2; color: #3A3A3A; word-break: keep-all; margin: 0 auto;">
+                    <p style="width: 320px; max-width: 100%; font-size: 14px; font-weight: 400; line-height: 2; color: #3A3A3A; word-break: keep-all; margin: 0 auto;">
                         폰트 아카이브를 이용해 주셔서 감사합니다! 문의해주신 내용 검토 후 최대한 빠른 시일 내에 답변드리겠습니다. <br/><br/>
                         부득이하게 문의해주신 내용을 반영하기 어려울 경우, 관련 내용 첨부해서 답변 드리겠습니다. 감사합니다! <br/><br/>
                         - 태돈
@@ -163,16 +163,16 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p style="text-align: center; margin: 40px 0;">
                         <img src="https://fonts-archive.s3.ap-northeast-2.amazonaws.com/3d_namaste_sign.png" alt="아이콘" style="width: 140px;"/>
                     </p>
-                    <p style="width: 320px; font-size: 14px; font-weight: bold; line-height: 2; margin: 0 auto;">
+                    <p style="width: 320px; max-width: 100%; font-size: 14px; font-weight: bold; line-height: 2; margin: 0 auto;">
                         문의 내용
                     </p>
-                    <div style="width: 320px; min-height: 120px; padding: 16px 20px; box-sizing: border-box; margin: 0 auto; margin-top: 8px; box-sizing: border-box; font-size: 14px; background-color: #E9F0FE; border-radius: 6px;">
+                    <div style="width: 320px; max-width: 100%; min-height: 120px; padding: 16px 20px; box-sizing: border-box; margin: 0 auto; margin-top: 8px; box-sizing: border-box; font-size: 14px; background-color: #E9F0FE; border-radius: 6px;">
                         ${"문의 내용"}
                     </div>
-                    <p style="width: 320px; font-size: 14px; font-weight: bold; line-height:2; margin: 0 auto; margin-top: 40px;">
+                    <p style="width: 320px; max-width: 100%; font-size: 14px; font-weight: bold; line-height:2; margin: 0 auto; margin-top: 40px;">
                         답변
                     </p>
-                    <div style="width: 320px; min-height: 120px; padding: 16px 20px; box-sizing: border-box; margin: 0 auto; margin-top: 8px; box-sizing: border-box; background-color: #E9F0FE; font-size: 14px; border-radius: 6px;">
+                    <div style="width: 320px; max-width: 100%; min-height: 120px; padding: 16px 20px; box-sizing: border-box; margin: 0 auto; margin-top: 8px; box-sizing: border-box; background-color: #E9F0FE; font-size: 14px; border-radius: 6px;">
                         ${"답변 내용"}
                     </div>
                     <div style="width: 100%; height: 1px; background-color: #D2D4DC; margin: 0 auto; margin-top: 48px;"></div>
@@ -211,28 +211,28 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p style="text-align: center; margin: 40px 0;">
                         <img src="https://fonts-archive.s3.ap-northeast-2.amazonaws.com/3d_gun_sign.png" alt="아이콘" style="width: 140px;"/>
                     </p>
-                    <p style="width: 320px; font-size: 14px; font-weight: bold; line-height: 2; margin: 0 auto;">
+                    <p style="width: 320px; max-width: 100%; font-size: 14px; font-weight: bold; line-height: 2; margin: 0 auto;">
                         제목
                     </p>
-                    <div style="width: 320px; padding: 16px 20px; box-sizing: border-box; margin: 0 auto; margin-top: 8px; box-sizing: border-box; font-size: 14px; background-color: #E9F0FE; border-radius: 6px;">
+                    <div style="width: 320px; max-width: 100%; padding: 16px 20px; box-sizing: border-box; margin: 0 auto; margin-top: 8px; box-sizing: border-box; font-size: 14px; background-color: #E9F0FE; border-radius: 6px;">
                         ${"제목"}
                     </div>
-                    <p style="width: 320px; font-size: 14px; font-weight: bold; line-height: 2; margin: 0 auto; margin-top: 40px;">
+                    <p style="width: 320px; max-width: 100%; font-size: 14px; font-weight: bold; line-height: 2; margin: 0 auto; margin-top: 40px;">
                         이메일
                     </p>
-                    <div style="width: 320px; padding: 16px 20px; box-sizing: border-box; margin: 0 auto; margin-top: 8px; box-sizing: border-box; font-size: 14px; background-color: #E9F0FE; border-radius: 6px;">
+                    <div style="width: 320px; max-width: 100%; padding: 16px 20px; box-sizing: border-box; margin: 0 auto; margin-top: 8px; box-sizing: border-box; font-size: 14px; background-color: #E9F0FE; border-radius: 6px;">
                         ${"이메일"}
                     </div>
-                    <p style="width: 320px; font-size: 14px; font-weight: bold; line-height: 2; margin: 0 auto; margin-top: 40px;">
+                    <p style="width: 320px; max-width: 100%; font-size: 14px; font-weight: bold; line-height: 2; margin: 0 auto; margin-top: 40px;">
                         문의 유형
                     </p>
-                    <div style="width: 320px; padding: 16px 20px; box-sizing: border-box; margin: 0 auto; margin-top: 8px; box-sizing: border-box; font-size: 14px; background-color: #E9F0FE; border-radius: 6px;">
+                    <div style="width: 320px; max-width: 100%; padding: 16px 20px; box-sizing: border-box; margin: 0 auto; margin-top: 8px; box-sizing: border-box; font-size: 14px; background-color: #E9F0FE; border-radius: 6px;">
                         ${"문의 유형"}
                     </div>
-                    <p style="width: 320px; font-size: 14px; font-weight: bold; line-height: 2; margin: 0 auto; margin-top: 40px;">
+                    <p style="width: 320px; max-width: 100%; font-size: 14px; font-weight: bold; line-height: 2; margin: 0 auto; margin-top: 40px;">
                         문의 내용
                     </p>
-                    <div style="width: 320px; min-height: 120px; padding: 16px 20px; box-sizing: border-box; margin: 0 auto; margin-top: 8px; box-sizing: border-box; font-size: 14px; background-color: #E9F0FE; border-radius: 6px;">
+                    <div style="width: 320px; max-width: 100%; min-height: 120px; padding: 16px 20px; box-sizing: border-box; margin: 0 auto; margin-top: 8px; box-sizing: border-box; font-size: 14px; background-color: #E9F0FE; border-radius: 6px;">
                         ${"문의 내용"}
                     </div>
                     <div style="width: 100%; height: 1px; background-color: #D2D4DC; margin: 0 auto; margin-top: 48px;"></div>
